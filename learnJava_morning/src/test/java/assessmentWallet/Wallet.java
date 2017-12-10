@@ -4,7 +4,7 @@ public class Wallet {
 	// variables for Wallet dollars in hundred, tens, ones
 	private int hundred, tens, ones;
 	
-	// constructor Wallet
+	// constructor Wallet .....
 	public Wallet(int hundred, int tens, int ones) {
 		this.hundred = hundred;
 		this.tens = tens;
