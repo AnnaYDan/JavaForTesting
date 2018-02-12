@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Grades {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);		
 		while (true){		
 			System.out.print("Enter your result mark: ");
@@ -23,10 +24,7 @@ public class Grades {
 				System.out.println("Invalid");
 			}
 			
-			if(sc != null) {
-			    sc.close();
-			}
+
 	}
-	
 	}
 }

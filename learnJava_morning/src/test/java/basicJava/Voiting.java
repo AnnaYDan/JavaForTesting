@@ -4,11 +4,10 @@ import java.util.Scanner;
 
 public class Voiting {
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);		
-
-
 
 		while (true){		
 
@@ -22,14 +21,9 @@ public class Voiting {
 			}else {
 				System.out.println("Invalid");
 			}
-
-			if(sc != null) {
-				sc.close();
-			}
-			
+	
 		}
-
-
+		
 	}
 
 }

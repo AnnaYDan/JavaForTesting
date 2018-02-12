@@ -22,7 +22,7 @@ public class WalletDB2 {
 	
 	// add money in Wallet
 	public void  addWallet(String typeOfNote , int amount) {
-		// write a code to add in to transacton table
+		// write a code to add in to transaction table
 	}
 	
 	// withdraw money from Wallet
