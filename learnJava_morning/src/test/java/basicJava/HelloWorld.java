@@ -3,7 +3,7 @@ package basicJava;
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// first program in Java
 		System.out.println("Hello world");
 		String FirstName = "Java";
 		System.out.println("My name is " + FirstName);
