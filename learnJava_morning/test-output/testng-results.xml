@@ -2,23 +2,23 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2018-03-13T11:14:23Z" finished-at="2018-03-13T11:14:23Z">
+  <suite name="Default suite" duration-ms="32" started-at="2018-03-16T17:48:25Z" finished-at="2018-03-16T17:48:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2018-03-13T11:14:23Z" finished-at="2018-03-13T11:14:23Z">
+    <test name="Default test" duration-ms="32" started-at="2018-03-16T17:48:25Z" finished-at="2018-03-16T17:48:25Z">
       <class name="testV1.TestV1CalculatorTest">
-        <test-method status="PASS" signature="addition()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="addition" duration-ms="0" started-at="2018-03-13T07:14:23Z" finished-at="2018-03-13T07:14:23Z">
+        <test-method status="PASS" signature="addition()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="addition" duration-ms="12" started-at="2018-03-16T13:48:25Z" finished-at="2018-03-16T13:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addition -->
-        <test-method status="PASS" signature="subtruction()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="subtruction" duration-ms="0" started-at="2018-03-13T07:14:23Z" finished-at="2018-03-13T07:14:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- subtruction -->
-        <test-method status="PASS" signature="multuply()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="multuply" duration-ms="0" started-at="2018-03-13T07:14:23Z" finished-at="2018-03-13T07:14:23Z">
+        <test-method status="PASS" signature="multuply()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="multuply" duration-ms="1" started-at="2018-03-16T13:48:25Z" finished-at="2018-03-16T13:48:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- multuply -->
+        <test-method status="PASS" signature="subtruction()[pri:0, instance:testV1.TestV1CalculatorTest@737996a0]" name="subtruction" duration-ms="1" started-at="2018-03-16T13:48:25Z" finished-at="2018-03-16T13:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtruction -->
       </class> <!-- testV1.TestV1CalculatorTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

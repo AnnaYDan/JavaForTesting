@@ -3,7 +3,7 @@ package basicJava;
 public class BasicMath {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// calling method addition from class "Calculator"
 		Calculator.addition(0, 9);
 	}
 

@@ -10,17 +10,22 @@ public class TestV1CalculatorTest {
 	//I need calculator to add/sub/mult two numbers and give a result
 	//developer must have calculator class
 	Calculator cal = new Calculator();
+	
+	// test for addition
   @Test
   public void addition() {
 	  int result = cal.addition(5,6);
 	  Assert.assertEquals(result, 11);
   }
+  
+  // test for subtraction
   @Test
   public void subtruction() {
 	  int result = cal.subtruction(5,6);
 	  Assert.assertEquals(result, -1);
   }
 
+  // test for multiplying
   @Test
   public void multuply() {
 	  int result = cal.multuply(5,0);
