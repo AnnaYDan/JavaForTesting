@@ -12,6 +12,8 @@ public class LoopFindOddMult {
 			// if reminder is greater than 0 we are printing this number
 			if (newi % 2 > 0) {
 				System.out.println("You got an odd number " + newi);
+			}else{
+				System.out.println("You got an even number " + newi);
 			}
 		}
 	}

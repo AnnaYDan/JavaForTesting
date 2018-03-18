@@ -3,17 +3,18 @@ package basicJava;
 public class SumUpTo10 {
 
 	public static void main(String[] args) {
-		// Sum up to 100 equals to  ?????
+		// Sum up to 100 equals to ??? let find it
 		int i = 0;
 		int sumi = 0;
-		while (i<100) {
-			i = i + 1;
+		while (i < 100) {
+			i = i + 1; // if comment this line while loop will execute ?? times
 			sumi = sumi + i;
-//			System.out.println("hello " + i + " times");
-//			System.out.println("Sum up to " + i + " equals to " + sumi);
+			// printing line inside while loop
+//			System.out.println("hello from while loop for " + i + " time");
+			System.out.println("Sum up to from while loop " + i + " equals to " + sumi);
 		}
 		
-		// it is printing line after while loop stop to execute
+		// printing line after while loop stop to execute
 		System.out.println("Sum up to " + i + " equals to " + sumi);
 	}
 
