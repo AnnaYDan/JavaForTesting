@@ -1,4 +1,4 @@
-package basicJava;
+package calcWithMethods;
 
 public class Calculator {
 

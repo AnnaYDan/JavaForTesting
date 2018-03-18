@@ -3,7 +3,7 @@ package basicJava;
 public class SumUpTo10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Sum up to 100 equals to  ?????
 		int i = 0;
 		int sumi = 0;
 		while (i<100) {

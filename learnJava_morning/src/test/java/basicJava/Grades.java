@@ -4,27 +4,26 @@ import java.util.Scanner;
 
 public class Grades {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// using scanner to get value grade
 		@SuppressWarnings("resource")
-		Scanner sc = new Scanner(System.in);		
-		while (true){		
+		Scanner sc = new Scanner(System.in);
+		while (true) {
 			System.out.print("Enter your result mark: ");
 			int grade = sc.nextInt();
 			if (grade >= 80) {
 				System.out.println("You get A");
-			}else if (grade >= 70) {
+			} else if (grade >= 70) {
 				System.out.println("You get B");
-			}else if (grade >= 60) {
+			} else if (grade >= 60) {
 				System.out.println("You get C");
-			}else if (grade >= 50) {
+			} else if (grade >= 50) {
 				System.out.println("You get D");
-			}else if (grade >= 0) {
+			} else if (grade >= 0) {
 				System.out.println("You get F");
-			}else {
+			} else {
 				System.out.println("Invalid");
 			}
-			
 
-	}
+		}
 	}
 }

@@ -2,7 +2,7 @@ package oOOPs;
 
 
 
-class BabyDog extends Dog {
+class BabyDog extends BigDog {
 	void weep() {
 		System.out.println("weeping...");
 	}

@@ -18,7 +18,8 @@ public class CountWords {
 
 		// we parse paragraph by space
 		String words[] = paragraph.split("\\s+");
-		// with for loop we put each word in Map collection (you may use HashMap if you do not need sorted keys)
+		// with for loop we put each word in Map collection (you may use HashMap if you
+		// do not need sorted keys)
 		Map<String, Integer> hs = new TreeMap<String, Integer>();
 		for (int i = 0; i < words.length; i++) {
 			if (hs.get(words[i]) != null) {
@@ -27,7 +28,7 @@ public class CountWords {
 				hs.put(words[i], 1);
 			}
 		}
-		
+
 		// with for loop we are printing our results
 		Set<String> s = hs.keySet();
 		for (String m : s) {

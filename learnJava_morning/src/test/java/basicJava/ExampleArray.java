@@ -1,6 +1,6 @@
 package basicJava;
 
-public class StudentNameAndAge {
+public class ExampleArray {
 
 	public static void main(String[] args) {
 		String name[] = {"name1", "name2", "name3", "name4"};

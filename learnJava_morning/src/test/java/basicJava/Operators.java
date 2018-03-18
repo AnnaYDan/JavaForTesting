@@ -3,10 +3,9 @@ package basicJava;
 public class Operators {
 
 	public static void main(String[] args) {
-		// Using Operators 
-		// assignment Operator "="
-		int a=500;
-		int b= 25;
+		// Using Operators. To assign a value we use "="
+		int a = 500;
+		int b = 25;
 		// Arithmetic Operators: +, -, *, / , %(Remainder ) , ++ , --
 		int sum = a + b;
 		System.out.println( "Sum of " +a +" and " +b +"is " + sum);
