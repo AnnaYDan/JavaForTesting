@@ -12,6 +12,8 @@ public class SumUpTo10 {
 //			System.out.println("hello " + i + " times");
 //			System.out.println("Sum up to " + i + " equals to " + sumi);
 		}
+		
+		// it is printing line after while loop stop to execute
 		System.out.println("Sum up to " + i + " equals to " + sumi);
 	}
 

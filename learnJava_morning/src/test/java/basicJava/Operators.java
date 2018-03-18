@@ -8,24 +8,30 @@ public class Operators {
 		int b = 25;
 		// Arithmetic Operators: +, -, *, / , %(Remainder ) , ++ , --
 		int sum = a + b;
-		System.out.println( "Sum of " +a +" and " +b +"is " + sum);
+		System.out.println("Sum of " + a + " and " + b + " is " + sum);
 		sum = 400 + 500;
-		System.out.println("sum of 400 and 500" + sum);
-		int mul= a * b;
-		System.out.println(a + " * " +  b  + " = " +  mul);
-		a=1000;
-		double  div= (double) a/b;
-		System.out.println(a+  "/" + b + " = " + div);
-		// Remainder
-		a= 8;
-		b= 2;
+		System.out.println("Sum of 400 and 500 is " + sum); // it will bring sum as 900
+		sum = 5000 * 3;
+		System.out.println("Sum of 400 and 500 is " + sum); // it will bring sum as 15,000 not 900
+		int mul = a * b; // 12500
+		mul = mul * 10; // 125000
+		System.out.println("Multiplication " + a + " * " +  b  + " = " +  mul); // it will bring 125000
+		a = 1000;
+		// convert data types
+		// put the result of division two integer variables a and b in variable with double data type
+		// to do this we are using shortcut by writing new data type in round brackets 
+		double div = (double) a/b;
+		System.out.println("Division " + a +  "/" + b + " = " + div);
+		// Reminder
+		a = 8;
+		b = 2;
 		int rem = a%b;
-		System.out.println(a + " % " +  b + " = " +  rem);
+		System.out.println("Reminder " + a + " % " +  b + " = " +  rem);
 		a = 10;
-		a++;
-		a++;
-		System.out.println(a);
-		a--;
-		System.out.println(a);
+		a++; // a = a + 1 , so that we should get 11
+		a++; // a = a + 1 , so that we should get 12
+		System.out.println("After two increments for variable a " + a);
+		a--; // a = a - 1 , so that we should get 11
+		System.out.println("After one decrements for variable a " + a);
 	}
 }
