@@ -1,6 +1,6 @@
 package basicJava;
 
-public class IfCondition {
+public class Java05IfCondition {
 
 	public static void main(String[] args) {
 		//check number is even or odd

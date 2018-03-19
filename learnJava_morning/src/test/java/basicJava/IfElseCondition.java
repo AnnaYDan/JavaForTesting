@@ -1,6 +1,6 @@
 package basicJava;
 
-public class IFElseConditon {
+public class IfElseCondition {
 
 	public static void main(String[] args) {
 

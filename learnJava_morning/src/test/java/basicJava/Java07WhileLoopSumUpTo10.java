@@ -1,6 +1,6 @@
 package basicJava;
 
-public class SumUpTo10 {
+public class Java07WhileLoopSumUpTo10 {
 
 	public static void main(String[] args) {
 		// Sum up to 100 equals to ??? let find it

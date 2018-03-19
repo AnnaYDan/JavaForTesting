@@ -1,6 +1,6 @@
 package basicJava;
 
-public class DataTypesAndVariables {
+public class Java02DataTypesAndVariables {
 
 	public static void main(String[] args) {
 		// this program is to learn data types and variables

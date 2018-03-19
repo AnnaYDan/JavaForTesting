@@ -1,6 +1,6 @@
 package basicJava;
 
-public class HelloWorld {
+public class Java01HelloWorld {
 
 	public static void main(String[] args) {
 /*		first program in Java
@@ -12,7 +12,7 @@ public class HelloWorld {
 		System.out.println("My name is " + firstName + " some text here");
 		// declare integer variable with name age and value 22
 		int age = 22;
-		
+		// this line is printing integer variable with concatenation with some text
 		System.out.println("I was born " + age + " years ago.");
 		
 	}

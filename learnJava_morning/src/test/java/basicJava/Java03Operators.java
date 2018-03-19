@@ -1,6 +1,6 @@
 package basicJava;
 
-public class Operators {
+public class Java03Operators {
 
 	public static void main(String[] args) {
 		// Using Operators. To assign a value we use "="

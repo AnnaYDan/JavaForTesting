@@ -2,7 +2,7 @@ package basicJava;
 
 import java.util.Scanner;
 
-public class FindMonthSwithcCase {
+public class FindMonthSwitchCase {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

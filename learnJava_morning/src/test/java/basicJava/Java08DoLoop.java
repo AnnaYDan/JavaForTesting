@@ -1,6 +1,6 @@
 package basicJava;
 
-public class DoLoop {
+public class Java08DoLoop {
 
 	public static void main(String[] Args) {
 		// program about printing sum for number from 0 up to 10;

@@ -1,6 +1,6 @@
 package basicJava;
 
-public class LoopFindOddMult {
+public class Java06ForLoopFindOddMult {
 
 	public static void main(String[] args) {
 		// program to find odd numbers from 1 to 10 multiplied by 3

@@ -1,6 +1,6 @@
 package basicJava;
 
-public class RelationalOperators {
+public class Java04RelationalOperators {
 
 	public static void main(String[] args) {
 		// Relational Operators
