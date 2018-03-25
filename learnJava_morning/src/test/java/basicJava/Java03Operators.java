@@ -32,6 +32,9 @@ public class Java03Operators {
 		a--; // a = a - 1 , so that we should get 11
 		System.out.println("After one decrements for variable a " + a);
 
+		a +=5;
+		System.out.println("After +=5 for variable a " + a); // a = a + 5 , so that we should get 16
+		
 		// convert data types
 		// put the result of division two integer variables a and b in variable with double data type
 		// to do this we are using shortcut by writing new data type in round brackets 

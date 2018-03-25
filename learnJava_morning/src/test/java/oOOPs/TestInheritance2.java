@@ -1,7 +1,5 @@
 package oOOPs;
 
-
-
 class BabyDog extends BigDog {
 	void weep() {
 		System.out.println("weeping...");
