@@ -3,7 +3,8 @@ package miniCalcV3;
 public class miniCalcMethods {
 
 	public static int add(int a, int b) {
-		int result = a + b;
+		int result;
+		result = a + b + 100;
 		return result;
 	}
 	
@@ -18,7 +19,7 @@ public class miniCalcMethods {
 	}
 	
 	public static int div(int a, int b) {
-		int result = a * b;
+		int result = a / b;
 		return result;
 	}
 	

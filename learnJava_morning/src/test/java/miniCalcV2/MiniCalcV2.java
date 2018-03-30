@@ -4,6 +4,7 @@ public class MiniCalcV2 {
 
 	public static void main(String[] args) {
 		
+		int x = add(5,3);
 		System.out.println(add(10,2));
 		System.out.println(sub(10,2));
 		System.out.println(mult(10,2));

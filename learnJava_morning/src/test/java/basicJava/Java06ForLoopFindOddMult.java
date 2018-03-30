@@ -9,11 +9,13 @@ public class Java06ForLoopFindOddMult {
 			// multiply number by 3
 			int newi = i * 3;
 			
-			// if reminder is greater than 0 we are printing this number
+			// we check reminder for newi variable divided by 2 
 			if (newi % 2 > 0) {
-				System.out.println("You got an odd number " + newi);
-			}else{
+				// if reminder is greater than 0 we are printing odd number
 				System.out.println("You got an even number " + newi);
+			}else{
+				// if reminder equals 0 we are printing even number
+				System.out.println("You got an odd number " + newi);
 			}
 		}
 	}
