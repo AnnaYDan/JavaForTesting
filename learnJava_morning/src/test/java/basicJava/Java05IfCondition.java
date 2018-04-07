@@ -4,12 +4,14 @@ public class Java05IfCondition {
 
 	public static void main(String[] args) {
 		//check number is even or odd
-		int a = 64;
+		int myNumber = 3;
+		int reminder = myNumber%2;
+		// reminder = 0;
 		// syntax: if (<condition>) {<code for true>} else {<code for false>}
-		if (a%2 == 0) {
-			System.out.println(a + " is even number");
+		if (reminder == 0) {
+			System.out.println(myNumber + " is even number");
 		}else{
-			System.out.println(a + " is odd number");
+			System.out.println(myNumber + " is odd number");
 		}
 
 	}

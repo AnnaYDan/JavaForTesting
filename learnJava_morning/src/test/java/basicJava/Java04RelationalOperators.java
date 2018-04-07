@@ -10,8 +10,9 @@ public class Java04RelationalOperators {
 		
 		// data type for relational operator is boolean : true or false
 		//(firstValue relationalOperator secondValue)
-		System.out.println("is " + seven + " == " + ten + "? >>>>>>>>> " +  (seven == ten)    ); // equal false
-		System.out.println("is " + seven + " != " + ten + "? >>>>>>>>> " +  (seven != ten)    ); // not equal true
+		boolean equalCheck = seven == ten;
+		System.out.println("is " + seven + " == " + ten + "? >>>>>>>>>>>>>>>>>>>>>> " +  (equalCheck)    ); // equal false
+		System.out.println("is " + seven + " != " + ten + "? <<<<<<<<<<<<<<<<<< " +  (seven != ten)    ); // not equal true
 		System.out.println("is " + seven + " > " + ten + "? >>>>>>>>> " +  (seven > ten)    ); // greater false
 		System.out.println("is " + seven + " >= " + ten + "? >>>>>>>>> " +  (seven >= ten)    ); // greater or equal false
 		System.out.println("is " + seven + " < " + ten + "? >>>>>>>>> " +  (seven < ten)    ); // less true

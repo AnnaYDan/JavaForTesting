@@ -17,5 +17,6 @@ public class TestInheritance {
 		BigDog d = new BigDog();
 		d.bark();
 		d.eat();
+
 	}
 }

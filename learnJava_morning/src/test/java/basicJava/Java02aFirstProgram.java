@@ -14,7 +14,9 @@ public class Java02aFirstProgram {
 		// decode line by line
 		int x;
 		x = 10;
+		x = 30;
 		int y = 20;
+		y = x;
 		int sum;
 		sum = x + y;
 		System.out.println("Sum = " + sum);
