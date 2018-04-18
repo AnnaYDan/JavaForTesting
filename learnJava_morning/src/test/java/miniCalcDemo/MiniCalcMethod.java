@@ -21,8 +21,8 @@ public class MiniCalcMethod {
 		return result;
 	}
 	
-	// sum
-	public static int summarizing(int sumNum1, int sumNum2) {
+	// addition
+	public static int addition(int sumNum1, int sumNum2) {
 		int result = sumNum1 + sumNum2;
 		return result;
 	}

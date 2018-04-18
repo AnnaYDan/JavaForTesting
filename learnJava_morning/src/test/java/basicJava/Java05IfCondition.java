@@ -6,13 +6,15 @@ public class Java05IfCondition {
 		//check number is even or odd
 		int myNumber = 3;
 		int reminder = myNumber%2;
-		// reminder = 0;
+		//reminder = 0;
 		// syntax: if (<condition>) {<code for true>} else {<code for false>}
 		if (reminder == 0) {
 			System.out.println(myNumber + " is even number");
 		}else{
 			System.out.println(myNumber + " is odd number");
 		}
+		
+		if (reminder == 1) System.out.println("One equals one"); 
 
 	}
 

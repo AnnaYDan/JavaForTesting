@@ -15,6 +15,7 @@ public class Java02aFirstProgram {
 		int x;
 		x = 10;
 		x = 30;
+		x = x + 10;
 		int y = 20;
 		y = x;
 		int sum;

@@ -16,14 +16,14 @@ public class Java08DoLoop {
 			// give a new value
 			sum = sum + i;
 			// print result
-			System.out.println("sum of numbers from 0 to " + i + " is " + sum);
+			System.out.println("INSIDE DO loop: sum of numbers from 0 to " + i + " is " + sum);
 			// increment by one; shortcut is to code with this line i++;
 			i = i + 1;
 			// Checking our condition while we should execute our loop
 		} while (i <= 10);
 		
 		// printing final result
-		System.out.println("After loop result for sum of nubmers up to 10 is " + sum);
+		System.out.println("After DO loop result for sum of nubmers up to 10 is " + sum);
 	}
 
 }

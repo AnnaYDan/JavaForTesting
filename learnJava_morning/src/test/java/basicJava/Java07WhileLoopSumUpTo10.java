@@ -6,7 +6,7 @@ public class Java07WhileLoopSumUpTo10 {
 		// Sum up to 100 equals to ??? let find it
 		int i = 0;
 		int sumi = 0;
-		while (i < 100) {
+		while (i < 10) {
 			i = i + 1; // if comment this line while loop will execute ?? times
 			sumi = sumi + i;
 			// printing line inside while loop

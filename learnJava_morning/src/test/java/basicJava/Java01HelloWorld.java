@@ -9,8 +9,9 @@ public class Java01HelloWorld {
  * multi-line comment between slashes and stars	
  * one-line comment after two slashes
 */
+		
 		System.out.println("Hello,\t\t\tWorld!");
-		System.out.println("Today is\nMonday.");
+		System.out.print("Today is\nMonday. >>>>>>>>>>>>>>");
 		System.out.println("Welcome to Java class");
 	
 	}

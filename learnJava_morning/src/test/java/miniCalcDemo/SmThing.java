@@ -9,7 +9,7 @@ public class SmThing {
 		MiniCalcMethod.division(8, 2); // printed 4 
 		System.out.println(MiniCalcMethod.multiplication(2, 5)); // I will  see 10
 		System.out.println(MiniCalcMethod.subtraction(2, 2)); // I will  see 0
-		System.out.println(MiniCalcMethod.summarizing(1, 99)); // I will  see 100
+		System.out.println(MiniCalcMethod.addition(1, 99)); // I will  see 100
 
 		// declare a variable <type> <name> = <value>;
 		/*  int i = 1; boolean check = true; double f = 0.9; int k = 23; int l = 676;  */
